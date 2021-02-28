@@ -10,6 +10,7 @@ metadata:
 subjects:
   - kind: ServiceAccount
     name: gcpspark
+    namespace: default
 roleRef:
   kind: ClusterRole
   name: edit
